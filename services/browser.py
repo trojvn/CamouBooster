@@ -47,7 +47,8 @@ async def main(proxy: Proxy):
         },
         # proxy={"server": "http://64.226.55.92:8000"},
         proxy={
-            "server": "http://23.230.8.106:64580",
+            "server": "http://23.230.230.68:62538",
+            # "server": "http://23.230.8.106:64580",
             "username": "i92ShttG",
             "password": "Y749jzwr",
         },
