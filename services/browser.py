@@ -66,7 +66,7 @@ async def main(proxy: Proxy):
         # await p.goto("https://www.wildsultan.com/")
 
         # await p.goto("https://www.browserscan.net")
-        await p.goto("https://google.com")
+        await p.goto("https://2ip.io")
         await p.wait_for_load_state("networkidle")
         await p.wait_for_timeout(randint(25000, 35000))
         input("Press Enter to continue...")
