@@ -30,7 +30,7 @@ FIREFOX_USER_PREFS = {
 async def main(proxy: Proxy):
     async with AsyncCamoufox(
         os=["macos", "windows", "linux"],
-        # geoip=True,
+        geoip=True,
         # locale="en-US",
         locale="en-US",
         humanize=True,
@@ -45,6 +45,7 @@ async def main(proxy: Proxy):
             # "locale:region": "FR",
             # "geolocation:longitude": 2.3522,
         },
+        proxy={"server": "http://64.226.55.92:8000"},
         # proxy={"server": "http://89.207.250.243:3128"},
         # proxy={"server": "http://168.81.237.12:8000"},
         # proxy={"server": "http://168.81.237.161:8000"},
