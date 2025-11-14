@@ -45,7 +45,12 @@ async def main(proxy: Proxy):
             # "locale:region": "FR",
             # "geolocation:longitude": 2.3522,
         },
-        proxy={"server": "http://64.226.55.92:8000"},
+        # proxy={"server": "http://64.226.55.92:8000"},
+        proxy={
+            "server": "http://23.230.8.106:64580",
+            "username": "i92ShttG",
+            "password": "Y749jzwr",
+        },
         # proxy={"server": "http://89.207.250.243:3128"},
         # proxy={"server": "http://168.81.237.12:8000"},
         # proxy={"server": "http://168.81.237.161:8000"},
